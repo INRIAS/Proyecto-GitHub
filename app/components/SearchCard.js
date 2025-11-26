@@ -10,7 +10,7 @@ export function SearchCard(props) {
     created_at,
   } = props;
 
-  let dataFormate = new Date(created_at).toLocaleString();
+  let dataFormate = new Date(created_at).toLocaleDateString();
 
   let confiEmail = email ? email : "Sin Información";
 
